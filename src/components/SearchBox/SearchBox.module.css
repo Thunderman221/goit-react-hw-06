@@ -1,0 +1,15 @@
+.form {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.field {
+  border: 2px green solid;
+  width: 250px;
+
+  &:hover,
+  :focus,
+  :active {
+    border: 2px rgb(8, 158, 8) solid;
+  }
+}
